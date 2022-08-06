@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: white;
 }
 
 .App-logo {
@@ -7,11 +8,11 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav{
+  background-color: black;
+  padding-left: 100%;
 }
+
 
 .App-header {
   background-color: #282c34;
@@ -24,15 +25,81 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+    transform:rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(30deg);
   }
+}
+
+.experience{
+  border: solid 1px;
+  height: 30%;
+  width: 100%;
+  background-color: black;
+}
+.about{
+  border: solid 1px;
+  height: 30%;
+  width: 100%;
+ background-color: black;
+ padding: 10%;
+ 
+}
+.contact{
+  border: solid 1px;
+  height: 30%;
+  width: 100%;
+  background-color: black;
+  padding: 5%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .role {
+    animation: App-logo-spin infinite 5s linear;
+    margin-top: 20%;
+    
+  }
+
+  
+  .role2{
+    animation: App-logo-spin infinite 5s linear;
+    margin-top: 20%;
+    
+  }
+  
+}
+
+.name{
+  margin-top: 15%;
+  text-overflow: ellipsis;
+  text-rendering: geometricPrecision;
+  text-size-adjust: 100px;
+}
+
+.hero{
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  color: white;
+  height: 10%;
+
+}
+
+ul{
+  padding-top: 10%;
+}
+
+li{
+  text-align: left;
+}
+
+.footer{
+
+  padding-top: 10%;
+  background-color: black;
 }
